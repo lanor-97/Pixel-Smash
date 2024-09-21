@@ -62,3 +62,8 @@ mvn clean install
 java -jar target/pixelsmash.jar
 ```
 
+## 🎥 Gameplay Video
+Check out the gameplay in the video below:
+
+[![Gameplay Video](http://img.youtube.com/vi/yUfWyU9xY48/0.jpg)](https://www.youtube.com/watch?v=yUfWyU9xY48)
+
