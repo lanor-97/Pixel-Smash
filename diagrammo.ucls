@@ -1,0 +1,1439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" automaticImage="PNG" always-add-relationships="false" generalizations="true" 
+  realizations="true" associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <enumeration id="1" language="java" name="interfaces.Direction" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/interfaces/Direction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="124" y="110"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="2" language="java" name="interfaces.DynamicObject" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/interfaces/DynamicObject.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="297" y="210"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <enumeration id="3" language="java" name="interfaces.GameState" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/interfaces/GameState.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="524" y="133"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <enumeration id="4" language="java" name="interfaces.MenuOption" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/interfaces/MenuOption.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="792" y="116"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="5" language="java" name="interfaces.Moovable" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/interfaces/Moovable.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="298" y="72"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <enumeration id="6" language="java" name="interfaces.PlayerAction" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/interfaces/PlayerAction.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1200" y="71"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <class id="7" language="java" name="interfaces.Position" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/interfaces/Position.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1014" y="154"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <enumeration id="8" language="java" name="interfaces.PowerUpType" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/interfaces/PowerUpType.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1381" y="105"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </enumeration>  
+  <interface id="9" language="java" name="interfaces.StaticObject" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/interfaces/StaticObject.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1543" y="96"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="core.AbstractDynamicObject" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/core/AbstractDynamicObject.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="410" y="616"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="core.AbstractStaticObject" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/core/AbstractStaticObject.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="844" y="592"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="12" language="java" name="core.Stats" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/core/Stats.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1574" y="560"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="13" language="java" name="core.PowerUp" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/core/PowerUp.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1540" y="328"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="14" language="java" name="core.PowerUpHandler" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/core/PowerUpHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1338" y="586"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="core.Projectile" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/core/Projectile.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="180" y="1042"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="core.Player" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/core/Player.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="516" y="1032"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="core.Platform" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/core/Platform.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="204" y="1322"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="core.Map" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/core/Map.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="606" y="1373"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="core.Hitbox" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/core/Hitbox.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="880" y="1064"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="core.EnemyPlayer" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/core/EnemyPlayer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1240" y="1292"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="core.AbstractCharacter" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/core/AbstractCharacter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1818" width="280" x="1847" y="49"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="game.Main" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/game/Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2332" y="152"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="game.Timer" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/game/Timer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2340" y="391"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="graphics.Animator" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/graphics/Animator.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="464" width="404" x="105" y="1664"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="graphics.EditorGUI" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/graphics/EditorGUI.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="794" y="1847"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="graphics.GamePanel" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/graphics/GamePanel.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="1209" width="279" x="558" y="2204"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="graphics.SpriteSheet" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/graphics/SpriteSheet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="209" y="2473"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="managers.WorldManager" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/managers/WorldManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1324" y="2196"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="managers.GraphicManager" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/managers/GraphicManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1992" y="2048"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="managers.SoundManager" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/managers/SoundManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2004" y="2300"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="managers.ControllerListener" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/managers/ControllerListener.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="227" width="333" x="1734" y="2551"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="managers.ControllerManager" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/managers/ControllerManager.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2424" y="2252"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="managers.EventHandler" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/managers/EventHandler.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2148" y="3032"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="menus.Cursor" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/menus/Cursor.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="232" y="2880"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="menus.MainMenu" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/menus/MainMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1776" y="3044"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="menus.MapEditorMenu" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/menus/MapEditorMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1488" y="3352"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="menus.MenuTextField" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/menus/MenuTextField.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2004" y="3388"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="menus.MultiplayerMenu" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/menus/MultiplayerMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="244" y="3392"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="menus.OptionsMenu" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/menus/OptionsMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2460" y="2904"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="menus.SingleplayerMenu" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/menus/SingleplayerMenu.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1128" y="3196"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="41" language="java" name="online.ClientThread.ClientListener" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/online/ClientThread.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="119" width="204" x="2276" y="1001"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="42" language="java" name="online.ClientThread" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/online/ClientThread.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="281" width="216" x="2276" y="680"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="43" language="java" name="online.Packet" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/online/Packet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2660" y="792"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="44" language="java" name="online.ServerThread" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/online/ServerThread.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2388" y="1304"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="45" language="java" name="online.ServerThread.ServerListener" project="SuperSmashCoso" 
+    file="/SuperSmashCoso/src/main/java/online/ServerThread.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2397" y="1544"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="46">    
+    <end type="SOURCE" refId="39" navigable="false">      
+      <attribute id="47" name="optionsPos"/>      
+      <multiplicity id="48" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="49">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="20"/>  
+  </dependency>  
+  <association id="50">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="51" name="com1"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="53">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <dependency id="54">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <dependency id="55">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="56">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="57">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <association id="58">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="59" name="gerry"/>      
+      <multiplicity id="60" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="61">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="62" name="client"/>      
+      <multiplicity id="63" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="42" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="64">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <association id="65">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="66" name="targetPlatform"/>      
+      <multiplicity id="67" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="68">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="69" name="mapEditor"/>      
+      <multiplicity id="70" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="71">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="72" name="currentPlatform"/>      
+      <multiplicity id="73" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="74">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="36"/>  
+  </dependency>  
+  <dependency id="75">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <association id="76">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="77" name="com3"/>      
+      <multiplicity id="78" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="79">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="80" name="world"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="82">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="83" name="world"/>      
+      <multiplicity id="84" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="85">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="86" name="hitboxWhenLeft"/>      
+      <multiplicity id="87" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="88">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="89" name="projectiles"/>      
+      <multiplicity id="90" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="91">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <nesting id="92">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="45"/>  
+  </nesting>  
+  <association id="93">    
+    <end type="SOURCE" refId="15" navigable="false">      
+      <attribute id="94" name="shooter"/>      
+      <multiplicity id="95" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="96">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="97" name="player2"/>      
+      <multiplicity id="98" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="99">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="5"/>  
+  </generalization>  
+  <dependency id="100">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <association id="101">    
+    <end type="SOURCE" refId="19" navigable="false">      
+      <attribute id="102" name="object"/>      
+      <multiplicity id="103" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="10" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="104">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="44"/>  
+  </dependency>  
+  <dependency id="105">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="106">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="39"/>  
+  </dependency>  
+  <association id="107">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="108" name="gp"/>      
+      <multiplicity id="109" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="110">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="111" name="server"/>      
+      <multiplicity id="112" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="44" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="113">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="114" name="ppsHandler"/>      
+      <multiplicity id="115" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="116">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="117" name="editor"/>      
+      <multiplicity id="118" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="25" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="119">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="120">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="121" name="mapsPos"/>      
+      <multiplicity id="122" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="123">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="124" name="sound"/>      
+      <multiplicity id="125" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="30" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="126">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <association id="127">    
+    <end type="SOURCE" refId="42" navigable="false">      
+      <attribute id="128" name="world"/>      
+      <multiplicity id="129" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="130">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="131" name="editor"/>      
+      <multiplicity id="132" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="133">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <generalization id="134">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <dependency id="135">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="136">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="38"/>  
+  </dependency>  
+  <dependency id="137">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="30"/>  
+  </dependency>  
+  <association id="138">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="139" name="player"/>      
+      <multiplicity id="140" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="16" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="141">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="142">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <generalization id="143">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="21"/>  
+  </generalization>  
+  <dependency id="144">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="145">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="146">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="147" name="sprites"/>      
+      <multiplicity id="148" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="149">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="30"/>  
+  </dependency>  
+  <generalization id="150">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <dependency id="151">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="43"/>  
+  </dependency>  
+  <association id="152">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="153" name="world"/>      
+      <multiplicity id="154" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="155">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="156" name="packet"/>      
+      <multiplicity id="157" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="43" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="158">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="159" name="mainMenu"/>      
+      <multiplicity id="160" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="161">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="162" name="attackDirection"/>      
+      <multiplicity id="163" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="164">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="165">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="166" name="hitboxAttack"/>      
+      <multiplicity id="167" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="168">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <association id="169">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="170" name="panel"/>      
+      <multiplicity id="171" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="172">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="37"/>  
+  </dependency>  
+  <association id="173">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="174" name="graphics"/>      
+      <multiplicity id="175" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="29" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="176">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="177" name="characters"/>      
+      <multiplicity id="178" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="179">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="30"/>  
+  </dependency>  
+  <dependency id="180">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="181">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="182">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <association id="183">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="184" name="platforms"/>      
+      <multiplicity id="185" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="186">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="187" name="mainMenu"/>      
+      <multiplicity id="188" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="189">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="36"/>  
+  </dependency>  
+  <dependency id="190">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="26"/>  
+  </dependency>  
+  <association id="191">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="192" name="world"/>      
+      <multiplicity id="193" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="194">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="195" name="wm"/>      
+      <multiplicity id="196" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="197">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <association id="198">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="199" name="firstSelection"/>      
+      <multiplicity id="200" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="201">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="40"/>  
+  </dependency>  
+  <dependency id="202">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="33"/>  
+  </dependency>  
+  <association id="203">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="204" name="cursor"/>      
+      <multiplicity id="205" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="206">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <generalization id="207">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <association id="208">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="209" name="status"/>      
+      <multiplicity id="210" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="3" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="211">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="212" name="platform"/>      
+      <multiplicity id="213" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="214">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <association id="215">    
+    <end type="SOURCE" refId="36" navigable="false">      
+      <attribute id="216" name="defaultPlatforms"/>      
+      <multiplicity id="217" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="218">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <dependency id="219">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="40"/>  
+  </dependency>  
+  <association id="220">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="221" name="world"/>      
+      <multiplicity id="222" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="223">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="43"/>  
+  </dependency>  
+  <association id="224">    
+    <end type="SOURCE" refId="25" navigable="false">      
+      <attribute id="225" name="editor"/>      
+      <multiplicity id="226" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="36" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="227">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="34"/>  
+  </dependency>  
+  <dependency id="228">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <realization id="229">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <dependency id="230">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="1"/>  
+  </dependency>  
+  <dependency id="231">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="12"/>  
+  </dependency>  
+  <dependency id="232">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="233">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <association id="234">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="235" name="panel"/>      
+      <multiplicity id="236" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="237">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="40"/>  
+  </generalization>  
+  <association id="238">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="239" name="ninja"/>      
+      <multiplicity id="240" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="241">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="14"/>  
+  </dependency>  
+  <association id="242">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="243" name="modalityPos"/>      
+      <multiplicity id="244" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="245">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="246" name="charactersPos"/>      
+      <multiplicity id="247" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="7" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="248">    
+    <end type="SOURCE" refId="33" navigable="false">      
+      <attribute id="249" name="controllerListener"/>      
+      <multiplicity id="250" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="31" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="251">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <association id="252">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="253" name="world"/>      
+      <multiplicity id="254" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="255">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="256" name="controller"/>      
+      <multiplicity id="257" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="32" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="258">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="43"/>  
+  </dependency>  
+  <association id="259">    
+    <end type="SOURCE" refId="13" navigable="false">      
+      <attribute id="260" name="type"/>      
+      <multiplicity id="261" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="262">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="30"/>  
+  </dependency>  
+  <dependency id="263">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="13"/>  
+  </dependency>  
+  <association id="264">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="265" name="stats"/>      
+      <multiplicity id="266" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="267">    
+    <end type="SOURCE" refId="44" navigable="false">      
+      <attribute id="268" name="world"/>      
+      <multiplicity id="269" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="270">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="43"/>  
+  </dependency>  
+  <association id="271">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="272" name="directionY"/>      
+      <multiplicity id="273" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="274">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="275" name="player1"/>      
+      <multiplicity id="276" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="277">    
+    <end type="SOURCE" refId="41"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <dependency id="278">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="43"/>  
+  </dependency>  
+  <dependency id="279">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="21"/>  
+  </dependency>  
+  <association id="280">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="281" name="target"/>      
+      <multiplicity id="282" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="283">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="284" name="others2"/>      
+      <multiplicity id="285" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="286">    
+    <end type="SOURCE" refId="18" navigable="false">      
+      <attribute id="287" name="objects"/>      
+      <multiplicity id="288" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="289">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <association id="290">    
+    <end type="SOURCE" refId="10" navigable="false">      
+      <attribute id="291" name="directionX"/>      
+      <multiplicity id="292" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="1" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="293">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="294">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="7"/>  
+  </dependency>  
+  <association id="295">    
+    <end type="SOURCE" refId="23" navigable="false">      
+      <attribute id="296" name="panel"/>      
+      <multiplicity id="297" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="26" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="298">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <association id="299">    
+    <end type="SOURCE" refId="14" navigable="false">      
+      <attribute id="300" name="powerups"/>      
+      <multiplicity id="301" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="302">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <association id="303">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="304" name="knight"/>      
+      <multiplicity id="305" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="306">    
+    <end type="SOURCE" refId="38" navigable="false">      
+      <attribute id="307" name="joinField"/>      
+      <multiplicity id="308" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="37" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="309">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="19"/>  
+  </dependency>  
+  <dependency id="310">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="30"/>  
+  </dependency>  
+  <dependency id="311">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="39"/>  
+  </dependency>  
+  <generalization id="312">    
+    <end type="SOURCE" refId="15"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <association id="313">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="314" name="com2"/>      
+      <multiplicity id="315" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="316">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="317" name="optionsMenu"/>      
+      <multiplicity id="318" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="39" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="319">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <association id="320">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="321" name="others"/>      
+      <multiplicity id="322" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="323">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="324" name="fightSelection"/>      
+      <multiplicity id="325" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="326">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="15"/>  
+  </dependency>  
+  <association id="327">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="328" name="enemies"/>      
+      <multiplicity id="329" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="20" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="330">    
+    <end type="SOURCE" refId="40" navigable="false">      
+      <attribute id="331" name="thirdSelection"/>      
+      <multiplicity id="332" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="34" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="333">    
+    <end type="SOURCE" refId="26" navigable="false">      
+      <attribute id="334" name="guy"/>      
+      <multiplicity id="335" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="24" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="336">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="337" name="singleplayerMenu"/>      
+      <multiplicity id="338" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="40" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="339">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="4"/>  
+  </dependency>  
+  <dependency id="340">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <dependency id="341">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <association id="342">    
+    <end type="SOURCE" refId="35" navigable="false">      
+      <attribute id="343" name="multiplayerMenu"/>      
+      <multiplicity id="344" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="38" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="345">    
+    <end type="SOURCE" refId="28" navigable="false">      
+      <attribute id="346" name="map"/>      
+      <multiplicity id="347" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="348">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <dependency id="349">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="43"/>  
+  </dependency>  
+  <association id="350">    
+    <end type="SOURCE" refId="20" navigable="false">      
+      <attribute id="351" name="map"/>      
+      <multiplicity id="352" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="353">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="354" name="mainMenu"/>      
+      <multiplicity id="355" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="356">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="357" name="hitboxWhenRight"/>      
+      <multiplicity id="358" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="359">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="40"/>  
+  </dependency>  
+  <association id="360">    
+    <end type="SOURCE" refId="31" navigable="false">      
+      <attribute id="361" name="mainMenu"/>      
+      <multiplicity id="362" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="35" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="363">    
+    <end type="SOURCE" refId="44"/>    
+    <end type="TARGET" refId="43"/>  
+  </dependency>  
+  <generalization id="364">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <dependency id="365">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="30"/>  
+  </dependency>  
+  <realization id="366">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="2"/>  
+  </realization>  
+  <nesting id="367">    
+    <end type="SOURCE" refId="42"/>    
+    <end type="TARGET" refId="41"/>  
+  </nesting>  
+  <dependency id="368">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="17"/>  
+  </dependency>  
+  <dependency id="369">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="370">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="11"/>  
+  </dependency>  
+  <association id="371">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="372" name="wm"/>      
+      <multiplicity id="373" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="374">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="375" name="timer"/>      
+      <multiplicity id="376" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="23" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <dependency id="377">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="39"/>  
+  </dependency>  
+  <dependency id="378">    
+    <end type="SOURCE" refId="45"/>    
+    <end type="TARGET" refId="28"/>  
+  </dependency>  
+  <dependency id="379">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="18"/>  
+  </dependency>  
+  <dependency id="380">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="8"/>  
+  </dependency>  
+  <dependency id="381">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="16"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

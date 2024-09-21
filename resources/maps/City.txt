@@ -1,0 +1,4 @@
+CityBackground
+CityPlatform190x80 270 190 190 80
+CityPlatform340x100 665 120 340 100
+CityPlatform810x250 210 380 810 250

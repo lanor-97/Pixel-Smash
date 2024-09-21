@@ -1,0 +1,4 @@
+TempleBackground
+TemplePlatform555x70 370 600 555 70
+TemplePlatform380x250 750 200 380 250
+TemplePlatform320x225 55 250 320 225

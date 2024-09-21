@@ -1,0 +1,17 @@
+image: maven:latest
+cache:
+  paths:
+    - /root/.m2/repository/
+
+build:
+  image: maven:latest
+  script:
+    - mvn install -B
+    - mv ./target/*.jar PixelSmash.jar
+    - rm -rf ./target
+  artifacts:
+    name: "PixelSmash"
+    paths:
+      - ./PixelSmash.jar
+      - ./maps/*
+      - ./img/*

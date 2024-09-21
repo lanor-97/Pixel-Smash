@@ -1,0 +1,4 @@
+SandBackground
+SandPlatform360x115 120 170 360 115
+SandPlatform455x152 50 600 455 152
+SandPlatform370x300 700 300 370 300
